@@ -9,6 +9,7 @@ class Magnata extends StatefulWidget {
 class _MagnataState extends State<Magnata> {
   int _contadorGrana = 0;
   int _valorGrana = 0;
+  int _valorTeste = 0;
 
   void _mandaGrana() {
     setState(() {
